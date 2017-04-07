@@ -24,6 +24,15 @@ a:focus {
   color: #ffffff;
   background-color: @primary-color;
 }
+.navbar-toggle .icon-bar {
+  height: 3px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: @primary-color;
+}
+.navbar-default .navbar-toggle {
+  border-color: @primary-color;
+}
 .pagination > .active > a,
 .pagination > .active > span,
 .pagination > .active > a:hover,
@@ -44,6 +53,16 @@ a:focus {
 .pagination > li > span:focus {
   color: @secondary-color;
   background-color: #e6e6e6;
+}
+.btn-primary {
+  color: #fff;
+  background-color: @primary-color;
+  border-color: @secondary-color;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: @secondary-color;
+  border-color: @secondary-color;
 }
 footer {
   background-color: #e5eae4;
