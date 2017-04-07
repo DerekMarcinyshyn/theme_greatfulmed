@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<odoo>
+    <data>
+        <template id="greatfulmed_logo" inherit_id="website.layout_logo_show" name="Greatful Med Logo">
+            <xpath expr="//img[@src='/logo.png']" position="replace">
+                <img src="/theme_greatfulmed/static/src/img/logo-full.jpg" t-att-alt="res_company.name" t-att-title="res_company.name"/>
+            </xpath>
+        </template>
+        <template id="greatfulmed_remove_powered_by" inherit_id="website.layout_footer_copyright" name="Greatful Remove Powered By">
+            <xpath expr="//div[@class='pull-right']" position="replace">
+                <div class="pull-right"></div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

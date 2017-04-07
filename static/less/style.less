@@ -1,0 +1,55 @@
+@primary-color: #5E8021;
+@secondary-color: #3d5618;
+
+.navbar-default {
+  background-color: #ffffff;
+}
+.navbar-brand {
+  height: 100px;
+}
+header a.navbar-brand img {
+  max-height: 80px;
+}
+a {
+  color: @primary-color;
+}
+a:hover,
+a:focus {
+  color: @secondary-color;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #5E8021;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  color: #ffffff;
+  background-color: #5E8021;
+  border-color: #5E8021;
+}
+.pagination > li > a,
+.pagination > li > span {
+  color: #5E8021;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  color: #3d5618;
+  background-color: #e6e6e6;
+}
+footer {
+  background-color: #e5eae4;
+}
+
+@media (min-width: 1024px) {
+  .navbar-right {
+    padding-top: 30px;
+  }
+}
