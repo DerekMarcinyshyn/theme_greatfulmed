@@ -11,7 +11,14 @@
         'views/theme_greatfulmed_templates.xml',
         'views/assets.xml'
     ],
+    'qweb': [
+        'static/src/xml/pos.xml'
+    ],
     'category': 'Theme/Ecommerce',
-    'depends': ['website', 'sale'],
+    'depends': [
+        'website',
+        'sale',
+        'point_of_sale'
+    ],
     'application': True,
 }
